@@ -5,3 +5,4 @@
 8/26/2019 2"47 PM MST. 83 Def F, Clear skies in Orem. The Amazon Rain forest burns on.
 8/28/19 I think I'm probably about done updating thsi log for the purposes of this repository. I have achieved the objective of this assignment by
 learning how to pull, edit, push, stage commit, and push using a github repository.
+It's dark outside, Messing around looking for tutorials on pluralsight and unity.com/learn
