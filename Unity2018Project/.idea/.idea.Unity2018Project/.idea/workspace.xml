@@ -12,12 +12,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/NewBehaviourScript001.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VarsClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/NewBehaviourScript001.cs" />
+        <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/varsClass.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +74,18 @@
       <workItem from="1567113099155" duration="40000" />
       <workItem from="1567113428871" duration="13000" />
       <workItem from="1567113457221" duration="686000" />
+      <workItem from="1567114305053" duration="950000" />
+      <workItem from="1567543098698" duration="242000" />
+      <workItem from="1567543359033" duration="2000" />
+      <workItem from="1567543386287" duration="147000" />
+      <workItem from="1567543546895" duration="791000" />
+      <workItem from="1567544359612" duration="480000" />
+      <workItem from="1567544901897" duration="81000" />
+      <workItem from="1567545358159" duration="727000" />
+      <workItem from="1567546126272" duration="199000" />
+      <workItem from="1567546345926" duration="13000" />
+      <workItem from="1567546379030" duration="906000" />
+      <workItem from="1567547308159" duration="561000" />
     </task>
     <servers />
   </component>
@@ -96,6 +110,10 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="933" y="260" key="RiderGenerateDialog" />
+    <state x="933" y="260" key="RiderGenerateDialog/1920.1080" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -103,19 +121,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/NewBehaviourScript001.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/NewBehaviourScript001.cs" initialLine="8">
-            <startOffsets>
-              <option value="217" />
-            </startOffsets>
-            <endOffsets>
-              <option value="223" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
