@@ -5,3 +5,6 @@
 8/26/2019 2"47 PM MST. 83 Def F, Clear skies in Orem. The Amazon Rain forest burns on.
 8/28/19 I think I'm probably about done updating thsi log for the purposes of this repository. I have achieved the objective of this assignment by
 learning how to pull, edit, push, stage commit, and push using a github repository.
+It's dark outside, Messing around looking for tutorials on pluralsight and unity.com/learn
+Still Dark, Still learning Unity. The unity videos have nice editing to them.
+Editing for the Green Dot. I'm taking a look at the Homework, and I'm getting the feeling we're falling a little bit behind the intended course schedule.
