@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c91febb-ad60-4caf-9bc7-0dfa63a1905d" name="Default Changelist" comment="" />
+    <list default="true" id="61e2bb63-3fe2-4d2e-be37-ab4f4ace39c1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,22 +12,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/VarsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FirstClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/VarsClass.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1QP3GgEE4bYMWBw5cSbQ16S4rZ5" />
+  <component name="ProjectId" id="1Q1cj2sVE2cCa680HNJmEBx1BuQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,15 +56,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c91febb-ad60-4caf-9bc7-0dfa63a1905d" name="Default Changelist" comment="" />
-      <created>1567658309433</created>
+      <changelist id="61e2bb63-3fe2-4d2e-be37-ab4f4ace39c1" name="Default Changelist" comment="" />
+      <created>1566941675585</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567658309433</updated>
-      <workItem from="1567658310872" duration="27000" />
-      <workItem from="1567658405360" duration="3341000" />
-      <workItem from="1567705099993" duration="2671000" />
-      <workItem from="1567713585841" duration="4000" />
+      <updated>1566941675585</updated>
+      <workItem from="1566941679053" duration="610000" />
     </task>
     <servers />
   </component>
@@ -84,9 +75,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -94,6 +83,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="165" key="SettingsEditor" />
+    <state x="0" y="165" key="SettingsEditor/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

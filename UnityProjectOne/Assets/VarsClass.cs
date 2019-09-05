@@ -18,7 +18,11 @@ public class VarsClass : MonoBehaviour
         public int firepower;
         public UnityEvent testEvent;
         public UnityEvent mouseDownEvent;
-  
+        public UnityEvent arrowKeyUpEvent;
+        public UnityEvent arrowKeyDownEvent;
+        public UnityEvent arrowKeyLeftEvent;
+        public UnityEvent arrowKeyRightEvent;
+    
     private void OnTriggerEnter(Collider other)
     {
         testEvent.Invoke();
@@ -29,6 +33,9 @@ public class VarsClass : MonoBehaviour
     {
         mouseDownEvent.Invoke();
     }
+    
+   
+
     // voidUpdate method found onhttps://docs.unity3d.com/ScriptReference/KeyCode.html while looking for a way
     // to implement events that allow keyboard input
 
