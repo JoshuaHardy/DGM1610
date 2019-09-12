@@ -16,13 +16,16 @@ public class VarsClass : MonoBehaviour
         public string stringValue = "Bob";
         public int firepower;
         public UnityEvent testEvent;
-
+        public UnityEvent mouseDownEvent;
         private void OnTriggerEnter(Collider other)
     {
         testEvent.Invoke();
         print("Watch where you're going!");
     }
-
+    private void OnMouseDown() 
+        { 
+            mouseDownEvent.Invoke(); 
+        } 
     // Update is called once per frame
     void Update()
     {

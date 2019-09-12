@@ -13,6 +13,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VarsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Standard.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -20,6 +22,7 @@
         <option value="$PROJECT_DIR$/Assets/NewBehaviourScript001.cs" />
         <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/varsClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VarsClass.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +93,7 @@
       <workItem from="1567654406015" duration="124000" />
       <workItem from="1567654644393" duration="2818000" />
       <workItem from="1568242228676" duration="321000" />
+      <workItem from="1568244494354" duration="1020000" />
     </task>
     <servers />
   </component>
