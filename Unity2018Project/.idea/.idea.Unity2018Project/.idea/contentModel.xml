@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\joshs\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\joshs\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Unity2018Project.-1665770432.00" t="ExcludeRecursive" />
-    <e p="D:\Coding\repositories\DGM1610\Unity2018Project" t="IncludeRecursive">
+    <e p="C:\Users\10570957\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10570957\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Unity2018Project.472960111.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10570957\Documents\repositories\DGM1610\Unity2018Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CatClass.cs" t="Include" />
+          <e p="DogClass.cs" t="Include" />
+          <e p="DogScript.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
+          <e p="MouseEvents.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="ParticleControl.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="varsClass.cs" t="Include" />
         </e>
