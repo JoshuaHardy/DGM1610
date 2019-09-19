@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
        
        if (!controller.isGrounded)
        {
-           position.y -= gravity;
+           position.y = 0; jumpCount = 0;
        }
        
        if (controller.isGrounded)
