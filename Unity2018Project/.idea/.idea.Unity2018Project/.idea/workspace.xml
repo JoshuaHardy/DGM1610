@@ -103,8 +103,12 @@
       <workItem from="1568242228676" duration="321000" />
       <workItem from="1568244494354" duration="3259000" />
       <workItem from="1568753087115" duration="4866000" />
+<<<<<<< Updated upstream
       <workItem from="1568925515045" duration="3745000" />
       <workItem from="1569118007503" duration="2273000" />
+=======
+      <workItem from="1568925515045" duration="4556000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -132,6 +136,8 @@
   <component name="WindowStateProjectService">
     <state x="933" y="260" key="RiderGenerateDialog" />
     <state x="933" y="260" key="RiderGenerateDialog/1920.1080" />
+    <state x="865" y="256" width="672" height="678" key="search.everywhere.popup" />
+    <state x="865" y="256" width="672" height="678" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
