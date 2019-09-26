@@ -13,6 +13,7 @@
           <e p="FloatDataScript.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
           <e p="LectureApplyForce.cs" t="Include" />
+          <e p="LectureFunctions.cs" t="Include" />
           <e p="LectureIf.cs" t="Include" />
           <e p="LectureIfFruit.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />

@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\FloatDataScript.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
     <Compile Include="Assets\Scripts\LectureApplyForce.cs" />
+    <Compile Include="Assets\Scripts\LectureFunctions.cs" />
     <Compile Include="Assets\Scripts\LectureIf.cs" />
     <Compile Include="Assets\Scripts\LectureIfFruit.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
