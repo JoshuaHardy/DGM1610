@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework.Constraints;
-using UnityEngine;
+﻿/* using UnityEngine;
 
 public class LectureFunctions : MonoBehaviour
 {
@@ -12,7 +9,7 @@ public class LectureFunctions : MonoBehaviour
     public Color playerColor = Color.red;
 
 
-    public float speed = 5;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +50,7 @@ public class LectureFunctions : MonoBehaviour
     
     private float IncreaseSpeed(float multiplier)
     {
-        
+        + 2f; //Placeholder;
     }
     // Update is called once per frame
     void Update()
@@ -61,3 +58,4 @@ public class LectureFunctions : MonoBehaviour
         
     }
 }
+*/

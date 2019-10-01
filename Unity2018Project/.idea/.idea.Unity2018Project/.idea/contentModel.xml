@@ -12,6 +12,7 @@
           <e p="DogScript.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="LectureApplyForce.cs" t="Include" />
           <e p="LectureFunctions.cs" t="Include" />
           <e p="LectureIf.cs" t="Include" />
@@ -22,6 +23,7 @@
           <e p="ParticleControl.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
+          <e p="UITextController.cs" t="Include" />
           <e p="varsClass.cs" t="Include" />
         </e>
       </e>
