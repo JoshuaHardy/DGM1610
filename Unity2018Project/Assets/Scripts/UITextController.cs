@@ -9,16 +9,14 @@ public class UITextController : MonoBehaviour
         
         
     private Text textLabel;
-        //make sure your text class is the variant using UnityEngine.UI;
 
         private void UpdateText(IntData data)
         {
             textLabel.text = data.value.ToString();
         }
         
-    void Start()
+    void Awake()
     {
         textLabel = GetComponent<Text>();
-        startEvent.Invoke();
     }
 }
