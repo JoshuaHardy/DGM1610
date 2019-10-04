@@ -9,3 +9,5 @@ It's dark outside, Messing around looking for tutorials on pluralsight and unity
 Still Dark, Still learning Unity. The unity videos have nice editing to them.
 Editing for the Green Dot. I'm taking a look at the Homework, and I'm getting the feeling we're falling a little bit behind the intended course schedule.
 Another Green Dot Edit. Sundays are busy. and it's hard to find the time to code and upload relevent info to github when I work 8 Hours and go to church. The weather today was rainy. 9/8/2019
+
+Placeholder Eddit, My push doesn't seem to be working from my home computer, testing 123. 10/4/19
