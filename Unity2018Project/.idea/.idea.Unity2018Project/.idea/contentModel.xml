@@ -11,6 +11,7 @@
           <e p="DogClass.cs" t="Include" />
           <e p="DogScript.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
+          <e p="GameArtData.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LectureApplyForce.cs" t="Include" />
@@ -22,11 +23,13 @@
           <e p="Movement.cs" t="Include" />
           <e p="Movement2.cs" t="Include" />
           <e p="ParticleControl.cs" t="Include" />
+          <e p="PlayerData.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageController.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="varsClass.cs" t="Include" />
+          <e p="WeaponData.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

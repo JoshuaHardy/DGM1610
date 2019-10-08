@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
     <Compile Include="Assets\Scripts\FloatDataScript.cs" />
+    <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\LectureApplyForce.cs" />
@@ -80,11 +81,13 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Movement2.cs" />
     <Compile Include="Assets\Scripts\ParticleControl.cs" />
+    <Compile Include="Assets\Scripts\PlayerData.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImageController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\VarsClass.cs" />
+    <Compile Include="Assets\Scripts\WeaponData.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
