@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb206ab-f290-4d40-aa74-f34e8eac717f" name="Default Changelist" comment="" />
@@ -12,14 +12,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CardDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CardDisplay.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CardDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Card.cs" />
+        <option value="$PROJECT_DIR$/Assets/CardDisplay.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570686094082</updated>
       <workItem from="1570686103006" duration="466000" />
+      <workItem from="1570738523265" duration="509000" />
     </task>
     <servers />
   </component>
@@ -83,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

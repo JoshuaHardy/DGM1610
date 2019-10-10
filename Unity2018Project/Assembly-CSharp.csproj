@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CatClass.cs" />
+    <Compile Include="Assets\Scripts\Clothes\ClothesData.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
     <Compile Include="Assets\Scripts\FloatDataScript.cs" />
