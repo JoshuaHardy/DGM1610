@@ -16,4 +16,5 @@ Another Green Dot Edit. Sundays are busy. and it's hard to find the time to code
 Placeholder Eddit, My push doesn't seem to be working from my home computer, testing 123. 10/4/19
 Placeholder Edit 2, Git still won't sync my other repository for some reason. 10/5/19
 10/06/2019 Car is busted. so much paperwork. Still not sure why my 1660 Repository won't synch.
+10/14/19 - UI Art Assets for HP, Combo Points, and Energy
 
