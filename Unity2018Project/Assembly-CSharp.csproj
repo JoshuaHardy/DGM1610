@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CatClass.cs" />
+    <Compile Include="Assets\Scripts\CinemachineController.cs" />
     <Compile Include="Assets\Scripts\Clothes\ClothesData.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
@@ -127,6 +128,12 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

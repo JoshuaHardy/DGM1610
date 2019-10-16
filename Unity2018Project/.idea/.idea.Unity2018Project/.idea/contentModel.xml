@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CatClass.cs" t="Include" />
+          <e p="CinemachineController.cs" t="Include" />
           <e p="Clothes" t="Include">
             <e p="ClothesData.cs" t="Include" />
           </e>
