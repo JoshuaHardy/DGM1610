@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
     <Compile Include="Assets\Scripts\FloatDataScript.cs" />
+    <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
@@ -93,6 +94,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
@@ -114,6 +118,9 @@
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
@@ -128,12 +135,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/10570957/Documents/repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

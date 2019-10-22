@@ -19,7 +19,7 @@ public class CinemachineController : MonoBehaviour
 
     private void InstanceHandler(GameObject obj)
     {
-        virtualCamera.Follow = obj;
+        virtualCamera.Follow = obj.transform;
         playerData.instanceAction = InstanceHandler;
         playerData.InstancePlayer();
     }

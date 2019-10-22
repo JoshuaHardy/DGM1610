@@ -15,6 +15,7 @@
           <e p="DogClass.cs" t="Include" />
           <e p="DogScript.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
+          <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
