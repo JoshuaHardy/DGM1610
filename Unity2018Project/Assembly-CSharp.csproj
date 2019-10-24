@@ -70,7 +70,7 @@
     <Compile Include="Assets\Scripts\Clothes\ClothesData.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
-    <Compile Include="Assets\Scripts\FloatDataScript.cs" />
+    <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\LectureFunctions.cs" />
     <Compile Include="Assets\Scripts\LectureIf.cs" />
     <Compile Include="Assets\Scripts\LectureIfFruit.cs" />
+    <Compile Include="Assets\Scripts\Lists.cs" />
     <Compile Include="Assets\Scripts\MonoEvents.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />

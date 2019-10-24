@@ -11,7 +11,7 @@ public class UIImageController : MonoBehaviour
         img = GetComponent<Image>();
     }
 
-    public void UpdateImage(FloatDataScript data)
+    public void UpdateImage(FloatData data)
     {
         img.fillAmount = data.value;
     }

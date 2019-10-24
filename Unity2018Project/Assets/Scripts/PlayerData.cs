@@ -10,7 +10,7 @@ public class PlayerData : GameArtData
    public UnityAction<GameObject> instanceAction;
    
    
-   public FloatDataScript health;
+   public FloatData health;
    public List<WeaponData> weapons;
    public ClothesData shirt;
    public ClothesData pants;

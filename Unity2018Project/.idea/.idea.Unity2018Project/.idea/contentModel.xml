@@ -14,7 +14,7 @@
           </e>
           <e p="DogClass.cs" t="Include" />
           <e p="DogScript.cs" t="Include" />
-          <e p="FloatDataScript.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
@@ -23,6 +23,7 @@
           <e p="LectureFunctions.cs" t="Include" />
           <e p="LectureIf.cs" t="Include" />
           <e p="LectureIfFruit.cs" t="Include" />
+          <e p="Lists.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
