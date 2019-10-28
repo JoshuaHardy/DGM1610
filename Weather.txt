@@ -18,3 +18,4 @@ Placeholder Edit 2, Git still won't sync my other repository for some reason. 10
 10/06/2019 Car is busted. so much paperwork. Still not sure why my 1660 Repository won't synch.
 10/14/19 - UI Art Assets for HP, Combo Points, and Energy
 10/19/19 Additional Art Asset Work, Converted Colored assets to grayscale in order to use less assets.
+10/27/19 I had the chance to work on some art assets today. I should probably be doing more coding, It's been pretty crazy with my sister's wedding. First snowfall today.
