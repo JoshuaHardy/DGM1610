@@ -14,7 +14,7 @@ public class Movement : MonoBehaviour
     {
        position.x = speed*Input.GetAxis("Horizontal");
        position.y -= gravity;
-       
+       position.z = speed*Input.GetAxis("Vertical");
        if (!controller.isGrounded)
        {
            position.y = 0; jumpCount = 0;
