@@ -9,19 +9,25 @@
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AgentHandler.cs" t="Include" />
+            <e p="AINav.cs" t="Include" />
           </e>
           <e p="CatClass.cs" t="Include" />
           <e p="CinemachineController.cs" t="Include" />
           <e p="Clothes" t="Include">
             <e p="ClothesData.cs" t="Include" />
           </e>
+          <e p="Data" t="Include">
+            <e p="FloatData.cs" t="Include" />
+            <e p="GameArtData.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+            <e p="WeaponData.cs" t="Include" />
+          </e>
           <e p="DogClass.cs" t="Include" />
           <e p="DogScript.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
+          <e p="EnumSwitch.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
-          <e p="GameArtData.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
           <e p="LectureApplyForce.cs" t="Include" />
           <e p="LectureFunctions.cs" t="Include" />
           <e p="LectureIf.cs" t="Include" />
@@ -39,7 +45,6 @@
           <e p="UIImageController.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="varsClass.cs" t="Include" />
-          <e p="WeaponData.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
