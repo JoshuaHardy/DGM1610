@@ -21,3 +21,4 @@ Placeholder Edit 2, Git still won't sync my other repository for some reason. 10
 10/27/19 I had the chance to work on some art assets today. I should probably be doing more coding, It's been pretty crazy with my sister's wedding. First snowfall today.
 10/30/19 - Having a hard time running things at home, I opened up my repository project only to get lots of errors saying pieces to my project were inacessable due to it's protection level
 11/2/19 Additional Art work. More AI work tomorrow.
+11/10/19 Accidently Branched. Just making sure I got everything merged together.
