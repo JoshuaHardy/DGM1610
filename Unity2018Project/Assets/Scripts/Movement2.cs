@@ -9,8 +9,8 @@ public class Movement2 : MonoBehaviour
     private CharacterController controller;
     private Vector3 position;
     private int jumpCount;
-    
-    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 30f;
+
+    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 30f, sprintVar = 1.5f;
     public int jumpCountMax = 4;
     
     // Start is called before the first frame update
@@ -23,6 +23,16 @@ public class Movement2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Fire3"))
+        {
+            moveSpeed += sprintVar;
+            moveSpeed += sprintVar;
+        } 
+        if (Input.GetButtonUp("Fire3"))
+        {
+            moveSpeed -= sprintVar;
+            moveSpeed -= sprintVar;
+        }
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         controller.Move(position*Time.deltaTime);
         position.y -= gravity;
