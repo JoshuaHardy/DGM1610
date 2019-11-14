@@ -29,6 +29,7 @@
           <e p="Data" t="Include">
             <e p="FloatData.cs" t="Include" />
             <e p="GameArtData.cs" t="Include" />
+            <e p="GroundedData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
             <e p="WeaponData.cs" t="Include" />

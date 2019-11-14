@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Coroutines\Coroutine.cs" />
      <Compile Include="Assets\Scripts\Data\FloatData.cs" />
      <Compile Include="Assets\Scripts\Data\GameArtData.cs" />
+     <Compile Include="Assets\Scripts\Data\GroundedData.cs" />
      <Compile Include="Assets\Scripts\Data\IntData.cs" />
      <Compile Include="Assets\Scripts\Data\Vector3Data.cs" />
      <Compile Include="Assets\Scripts\Data\WeaponData.cs" />

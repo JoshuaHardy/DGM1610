@@ -5421,6 +5421,7 @@ GameObject:
   - component: {fileID: 221987336}
   - component: {fileID: 221987341}
   - component: {fileID: 221987342}
+  - component: {fileID: 221987343}
   m_Layer: 0
   m_Name: Healthpack
   m_TagString: Untagged
@@ -5454,6 +5455,17 @@ MonoBehaviour:
           m_StringArgument: +1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!135 &221987337
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5577,6 +5589,33 @@ MonoBehaviour:
   mouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &221987343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221987335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a4c466b6a909044903241124cb6d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 122950357}
+        m_MethodName: UpdateImage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: e83cbe62b6004d14c833b28831314ebc,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &339698752
 GameObject:
   m_ObjectHideFlags: 0
@@ -16786,14 +16825,14 @@ MonoBehaviour:
   testEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: e83cbe62b6004d14c833b28831314ebc, type: 2}
+        m_MethodName: UpdateValue
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 0.1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -16831,14 +16870,14 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: b97c1eab7146bf347b463d215987edc3, type: 2}
+      - m_Target: {fileID: 11400000, guid: b26af1decadc9574ca54d34bef3dc3a8, type: 2}
         m_MethodName: UpdateValue
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0.5
           m_StringArgument: +1
           m_BoolArgument: 0
         m_CallState: 2
@@ -17198,7 +17237,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17298,7 +17337,38 @@ MonoBehaviour:
   jumpSpeed: 30
   sprintVar: 1.5
   jumpSprintVar: 1.5
+  energyRegen: 0.2
+  Energy: 1
   jumpCountMax: 2
+  jumpEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: b26af1decadc9574ca54d34bef3dc3a8, type: 2}
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.25
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1138742668}
+        m_MethodName: UpdateImage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: b26af1decadc9574ca54d34bef3dc3a8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  sprintEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!143 &1837438015
 CharacterController:
   m_ObjectHideFlags: 0

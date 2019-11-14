@@ -10,10 +10,12 @@ public class PlayerData : GameArtData
    public UnityAction<GameObject> instanceAction;
    
    
-   public FloatData health;
-   public List<WeaponData> weapons;
-   public ClothesData shirt;
-   public ClothesData pants;
+   public FloatData health, energy, healthRegen, energyRegen;
+
+   public IntData ammo, comboPoints;
+   //public List<WeaponData> weapons;
+   //public ClothesData shirt;
+   //public ClothesData pants;
 
    
    public void InstancePlayer()
