@@ -6,6 +6,13 @@
     <e p="D:\Coding\repositories\DGM1610\Unity2018Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Art" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Magic-Cliffs-Environment" t="Include">
+              <e p="public-license.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AgentHandler.cs" t="Include" />

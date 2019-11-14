@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class Coroutines : MonoBehaviour
 {
     public UnityEvent startEvent, repeatEvent, endEvent;
-    public float seconds = 10f;
+    public float seconds = 3f;
     public int counter = 10;
     public bool canRun;
     
