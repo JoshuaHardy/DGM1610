@@ -20,7 +20,6 @@ public class VarsClass : MonoBehaviour
         private void OnTriggerEnter(Collider other)
     {
         testEvent.Invoke();
-        print("Watch where you're going!");
     }
     private void OnMouseDown() 
         { 
