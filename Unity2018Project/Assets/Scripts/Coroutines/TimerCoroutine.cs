@@ -43,10 +43,10 @@ public class TimerCoroutine : MonoBehaviour
 
     IEnumerator OnRun()
     {
-        while (secondsTimer < 60) /*& (timeLeft = 0)*/;
+        while (secondsTimer < 5)
         {
             secondsTimer++;
-            if (secondsTimer >= 60)
+            if (secondsTimer >= 5)
             {
                 secondsTimer = 0;
                 minutesTimer++;
