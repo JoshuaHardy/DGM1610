@@ -65,8 +65,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
-    <Compile Include="Assets\Scripts\AI\AINav.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CinemachineController.cs" />
@@ -82,9 +80,10 @@
     <Compile Include="Assets\Scripts\Data\IntData.cs" />
     <Compile Include="Assets\Scripts\Data\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\Data\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\Debugger.cs" />
+    <Compile Include="Assets\Scripts\DebuggerHandler.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
-    <Compile Include="Assets\Scripts\EnumSwitch.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
     <Compile Include="Assets\Scripts\LectureApplyForce.cs" />

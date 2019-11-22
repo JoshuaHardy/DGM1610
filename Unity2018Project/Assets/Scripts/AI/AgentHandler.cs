@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 ﻿using System.Collections;
 using System.Collections.Generic;
+=======
+﻿using System;
+>>>>>>> Stashed changes
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +15,7 @@ public class AgentHandler : MonoBehaviour
     private GameObject startObj;
     public Transform destinationObj;
     
+<<<<<<< Updated upstream
     
    void Start()
    {
@@ -33,5 +38,28 @@ public class AgentHandler : MonoBehaviour
     void Update()
     {
         agent.destination = destinationObj.position;
+=======
+    void Start()
+    {
+        startObj = new GameObject();
+        startObj.transform.position = transform.position;
+        currentDestination = transform;
+        agent = GetComponent<NavMeshAgent>();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        currentDestination = destinationObj;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        currentDestination = startObj.transform;
+    }
+
+    void Update()
+    {
+        agent.destination = currentDestination.position;
+>>>>>>> Stashed changes
     }
 }
