@@ -65,6 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
+    <Compile Include="Assets\Scripts\AI\AINav.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CinemachineController.cs" />
@@ -84,6 +86,9 @@
     <Compile Include="Assets\Scripts\DebuggerHandler.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
+    <Compile Include="Assets\Scripts\EnumSwitch.cs" />
+    <Compile Include="Assets\Scripts\GameAction.cs" />
+    <Compile Include="Assets\Scripts\GameActionHandler.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
     <Compile Include="Assets\Scripts\LectureApplyForce.cs" />
@@ -99,6 +104,7 @@
     <Compile Include="Assets\Scripts\ParticleControl.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
+    <Compile Include="Assets\Scripts\StatesBehaviour.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImageController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
