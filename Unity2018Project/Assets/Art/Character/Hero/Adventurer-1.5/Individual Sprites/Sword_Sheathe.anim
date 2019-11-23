@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: smrsalt
+  m_Name: Sword_Sheathe
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 89c6c2a3908761149b419516d6cbd472, type: 3}
+      value: {fileID: 21300000, guid: bd59f82bf5bd6ea4890a37d2d9df4b6f, type: 3}
     - time: 0.125
-      value: {fileID: 21300000, guid: f937b0428ae447946abd4fe3c8246fcf, type: 3}
+      value: {fileID: 21300000, guid: a2df686147394dd44b8aa6bc4787b2a5, type: 3}
     - time: 0.25
-      value: {fileID: 21300000, guid: ec257f31dae6ca54b833997be7315a0f, type: 3}
+      value: {fileID: 21300000, guid: 6981ccd307bae534c820555c5ecdd176, type: 3}
     - time: 0.375
-      value: {fileID: 21300000, guid: 0cd86016671cba849ba9f4e55ab4f493, type: 3}
+      value: {fileID: 21300000, guid: 335ce37d0545ce345bc13c53198dfa29, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 89c6c2a3908761149b419516d6cbd472, type: 3}
-    - {fileID: 21300000, guid: f937b0428ae447946abd4fe3c8246fcf, type: 3}
-    - {fileID: 21300000, guid: ec257f31dae6ca54b833997be7315a0f, type: 3}
-    - {fileID: 21300000, guid: 0cd86016671cba849ba9f4e55ab4f493, type: 3}
+    - {fileID: 21300000, guid: bd59f82bf5bd6ea4890a37d2d9df4b6f, type: 3}
+    - {fileID: 21300000, guid: a2df686147394dd44b8aa6bc4787b2a5, type: 3}
+    - {fileID: 21300000, guid: 6981ccd307bae534c820555c5ecdd176, type: 3}
+    - {fileID: 21300000, guid: 335ce37d0545ce345bc13c53198dfa29, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
