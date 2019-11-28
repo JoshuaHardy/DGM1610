@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class Movement2 : MonoBehaviour
 {
+    
     private CharacterController controller;
     private Vector3 position;
     private int jumpCount;
