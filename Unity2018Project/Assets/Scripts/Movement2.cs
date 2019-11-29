@@ -12,6 +12,7 @@ public class Movement2 : MonoBehaviour
     private CharacterController controller;
     private Vector3 position;
     private int jumpCount;
+    public Animator playerAnimator;
 
     public float moveSpeed = 10f,
         gravity = 9.81f,
@@ -49,6 +50,7 @@ public class Movement2 : MonoBehaviour
     }
     void Update()
     {
+        playerAnimator.SetFloat("Speed", moveSpeed);
         if (isSprinting == false && controller.isGrounded)
         {
             bool energyRegenTrigger = true;
