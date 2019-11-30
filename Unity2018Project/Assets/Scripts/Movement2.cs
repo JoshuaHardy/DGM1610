@@ -13,14 +13,16 @@ public class Movement2 : MonoBehaviour
     private Vector3 position;
     private int jumpCount;
     public Animator playerAnimator;
+    //public float horizontalSpeed, verticalSpeed;
 
     public float moveSpeed = 10f,
         gravity = 9.81f,
         jumpSpeed = 30f,
         sprintVar = 1.5f,
         jumpSprintVar = 1.5f,
-        energyRegen = .2f,
-        Energy = 1;
+        jumpCost = .25f,
+        energyRegen = .1f,
+        energy = 1f;
 
     public int jumpCountMax = 4;
     private bool energyRegenTrigger, isSprinting;
@@ -62,7 +64,7 @@ public class Movement2 : MonoBehaviour
 
         if (energyRegenTrigger == true)
         {
-            Energy += energyRegen;
+            energy += energyRegen;
         }
         if (Input.GetButtonDown("Fire3"))
         {
@@ -87,10 +89,11 @@ public class Movement2 : MonoBehaviour
             jumpCount = 0;
         }
 
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax && energy >= jumpCost)
         {
             position.y = jumpSpeed;
             jumpCount++;
+            //energy -= jumpCost;
         }
     }
 }

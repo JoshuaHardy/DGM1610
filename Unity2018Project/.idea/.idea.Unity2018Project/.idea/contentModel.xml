@@ -18,6 +18,11 @@
             <e p="AgentHandler.cs" t="Include" />
             <e p="AINav.cs" t="Include" />
           </e>
+          <e p="AnimationScripts" t="Include">
+            <e p="Hero" t="Include">
+              <e p="HeroAnimationScript.cs" t="Include" />
+            </e>
+          </e>
           <e p="ButtonInput.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CinemachineController.cs" t="Include" />

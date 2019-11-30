@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
     <Compile Include="Assets\Scripts\AI\AINav.cs" />
+    <Compile Include="Assets\Scripts\AnimationScripts\Hero\HeroAnimationScript.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CinemachineController.cs" />

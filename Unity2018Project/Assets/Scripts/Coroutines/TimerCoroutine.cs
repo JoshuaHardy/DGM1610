@@ -46,7 +46,7 @@ public class TimerCoroutine : MonoBehaviour
         while (secondsTimer < 5)
         {
             secondsTimer++;
-            if (secondsTimer >= 5)
+            if (secondsTimer >= 60)
             {
                 secondsTimer = 0;
                 minutesTimer++;
