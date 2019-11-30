@@ -24,6 +24,7 @@ public class Movement2 : MonoBehaviour
         energyRegen = .1f,
         energy = 1f;
 
+    
     public int jumpCountMax = 4;
     private bool energyRegenTrigger, isSprinting;
 

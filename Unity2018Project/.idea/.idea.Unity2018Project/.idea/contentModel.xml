@@ -68,6 +68,7 @@
           <e p="PlayerDeath.cs" t="Include" />
           <e p="StatesBehaviour.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
+          <e p="UIImageControlerEnergy.cs" t="Include" />
           <e p="UIImageController.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />

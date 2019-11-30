@@ -13,7 +13,7 @@ public class FloatData : ScriptableObject
         value = amount;
         // alternative syntaax is: {value = value + amount;} but the given syntax does the same and is shorter
 
-        if (value <= maxValue)
+        /*if (value <= maxValue)
         {
             value = amount;
         }
@@ -29,6 +29,6 @@ public class FloatData : ScriptableObject
         else
         {
             value = minValue;
-        }
+        }*/
     }
 }
