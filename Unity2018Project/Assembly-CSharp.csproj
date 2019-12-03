@@ -106,8 +106,14 @@
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\VarsClass.cs" />
     <None Include="Assets\Art\Environment\Magic-Cliffs-Environment\public-license.txt" />
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
@@ -117,12 +123,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>D:/Coding/Repositories/DGM1610/Unity2018Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
