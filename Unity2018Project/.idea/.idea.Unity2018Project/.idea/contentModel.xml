@@ -67,6 +67,7 @@
           <e p="PlayerData.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="StatesBehaviour.cs" t="Include" />
+          <e p="TargetControl.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControlerEnergy.cs" t="Include" />
           <e p="UIImageController.cs" t="Include" />
