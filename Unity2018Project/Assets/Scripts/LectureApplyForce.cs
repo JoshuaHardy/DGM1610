@@ -10,17 +10,20 @@ public class LectureApplyForce : MonoBehaviour
 {
     private Rigidbody rb;
 
-    public Vector3 forces;
+    public Vector3Data forceDirection;
+    public float force = 3f;
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.AddForce(forceDirection.value*force);
     }
 
     // Update is called once per frame
-    private void OnCollisionEnter(Collision other)
+/*    private void OnCollisionEnter(Collision other)
     {
-        rb.AddForce(forces);
-    }
+        rb.AddForce(forceDirection.value*force);
+    }*/
 }
+
