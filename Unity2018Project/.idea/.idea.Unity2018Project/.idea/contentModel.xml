@@ -22,6 +22,7 @@
             <e p="Hero" t="Include">
               <e p="HeroAnimationScript.cs" t="Include" />
             </e>
+            <e p="NewBehaviourScript.cs" t="Include" />
           </e>
           <e p="ButtonInput.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
@@ -49,12 +50,14 @@
           <e p="DogClass.cs" t="Include" />
           <e p="DogScript.cs" t="Include" />
           <e p="EnumSwitch.cs" t="Include" />
-          <e p="FireWeapon.cs" t="Include" />
+          <e p="FireArrow.cs" t="Include" />
           <e p="Flip.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="GameActionRaiser.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="HudDisplay.cs" t="Include" />
+          <e p="Instancer.cs" t="Include" />
           <e p="LectureApplyForce.cs" t="Include" />
           <e p="LectureFunctions.cs" t="Include" />
           <e p="LectureIf.cs" t="Include" />

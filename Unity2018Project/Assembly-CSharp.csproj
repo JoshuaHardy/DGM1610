@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
     <Compile Include="Assets\Scripts\AI\AINav.cs" />
     <Compile Include="Assets\Scripts\AnimationScripts\Hero\HeroAnimationScript.cs" />
+    <Compile Include="Assets\Scripts\AnimationScripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CinemachineController.cs" />
@@ -88,12 +89,14 @@
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\DogScript.cs" />
     <Compile Include="Assets\Scripts\EnumSwitch.cs" />
-    <Compile Include="Assets\Scripts\FireWeapon.cs" />
+    <Compile Include="Assets\Scripts\FireArrow.cs" />
     <Compile Include="Assets\Scripts\Flip.cs" />
     <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameActionHandler.cs" />
+    <Compile Include="Assets\Scripts\GameActionRaiser.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\HudDisplay.cs" />
+    <Compile Include="Assets\Scripts\Instancer.cs" />
     <Compile Include="Assets\Scripts\LectureApplyForce.cs" />
     <Compile Include="Assets\Scripts\LectureFunctions.cs" />
     <Compile Include="Assets\Scripts\LectureIf.cs" />
