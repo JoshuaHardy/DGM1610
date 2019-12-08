@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Flip : MonoBehaviour
 
 {
     public Vector3Data data;
+    public UnityEvent faceLeft;
+    public UnityEvent faceRight;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +23,14 @@ public class Flip : MonoBehaviour
         {
            transform.rotation = Quaternion.Euler(0,180,0);
            data.value.x = -1;
+           faceLeft.Invoke();
         }
 
         if (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.D)))
         {
             transform.rotation = Quaternion.Euler (0,0,0);
-            data.value.x = 1;
+            data.value.x = +1;
+            faceRight.Invoke();
         }
         
     }

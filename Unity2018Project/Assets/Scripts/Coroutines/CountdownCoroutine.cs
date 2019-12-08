@@ -6,7 +6,8 @@ using System.Threading;
 
 //Countdown tutorial found online https://www.noob-programmer.com/unity3d/countdown-timer/
 
-public class CountdownCoroutine : MonoBehaviour 
+[CreateAssetMenu]
+public class CountdownCoroutine : MonoBehaviour
 {
     public int timeLeft = 60; //Seconds Overall
     public Text countdown; //UI Text Object

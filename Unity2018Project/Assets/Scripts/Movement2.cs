@@ -32,7 +32,7 @@ public class Movement2 : MonoBehaviour
 
     private WaitForSeconds energyRegenRate;
 
-    /*private void Input.GetButtonDown("Fire3")
+    private void Input.GetButtonDown("Fire3")
     {
         sprintEvent.Invoke;
     }
@@ -40,7 +40,7 @@ public class Movement2 : MonoBehaviour
     private void Input.GetButtonDown("Jump")
     {
         jumpEvent.Invoke;
-    }*/
+    }
         
     private void Awake()
     {
