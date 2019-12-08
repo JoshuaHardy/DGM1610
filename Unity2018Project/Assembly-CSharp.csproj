@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\LectureIf.cs" />
     <Compile Include="Assets\Scripts\LectureIfFruit.cs" />
     <Compile Include="Assets\Scripts\Lists.cs" />
+    <Compile Include="Assets\Scripts\Loops\ForLoop.cs" />
     <Compile Include="Assets\Scripts\MonoEvents.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\StatesBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SwitchArrowLog.cs" />
     <Compile Include="Assets\Scripts\TargetControl.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImageControlerEnergy.cs" />

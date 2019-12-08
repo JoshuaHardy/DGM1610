@@ -63,6 +63,9 @@
           <e p="LectureIf.cs" t="Include" />
           <e p="LectureIfFruit.cs" t="Include" />
           <e p="Lists.cs" t="Include" />
+          <e p="Loops" t="Include">
+            <e p="ForLoop.cs" t="Include" />
+          </e>
           <e p="MonoEvents.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
@@ -73,6 +76,7 @@
           <e p="PlayerDeath.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="StatesBehaviour.cs" t="Include" />
+          <e p="SwitchArrowLog.cs" t="Include" />
           <e p="TargetControl.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControlerEnergy.cs" t="Include" />
