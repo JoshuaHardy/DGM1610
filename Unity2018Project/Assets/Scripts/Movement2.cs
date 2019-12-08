@@ -26,7 +26,7 @@ public class Movement2 : MonoBehaviour
 
     
     public int jumpCountMax = 4;
-    private bool energyRegenTrigger, isSprinting;
+    private bool energyRegenTrigger, isSprinting, bowAnimTrigger;
 
     public UnityEvent jumpEvent, sprintEvent;
 
@@ -53,7 +53,16 @@ public class Movement2 : MonoBehaviour
     }
     void Update()
     {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            bowAnimTrigger = true;
+        }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            bowAnimTrigger = false;
+        }
         playerAnimator.SetFloat("Speed", moveSpeed);
+        playerAnimator.SetBool("FireBow", bowAnimTrigger);
         if (isSprinting == false && controller.isGrounded)
         {
             bool energyRegenTrigger = true;

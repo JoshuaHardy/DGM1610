@@ -8,45 +8,61 @@ using UnityEngine.TextCore;
 public class FireArrow : MonoBehaviour
 {
     public GameObject arrow;
-    public float fireRate = 2f;
+    public float fireRate = 1f;
     public WaitForSeconds fireDelay;
     public Vector3Data data;
     public IntData facingDirection;
     public bool facingRight = true;
     private int arrowsFired = 0;
     private int switchCaseIndex = 0;
+    public Animator bowAnimator;
+    public bool fireArrow = false;
+    public WaitForSeconds waitForSeconds;
+
+    enum direction {Left, Right};
+    direction playerDirection;
+    
 
     private void Awake()
    {
-       //throw new NotImplementedException();
+       waitForSeconds = new WaitForSeconds(fireRate);
+       playerDirection = direction.Right;
    }
 
-   void Update()
+    private void Start()
+    {
+        
+    }
+
+    void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow) || (Input.GetKey(KeyCode.A)))
         {
             facingRight = false;
+            playerDirection = direction.Left;
         }
 
         if (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.D)))
         {
             facingRight = true;
+            playerDirection = direction.Right;
         }
 
-        if (Input.GetButton("Fire1") && facingRight == true )
+        if (Input.GetButtonDown("Fire1") && facingRight == true )
         {
             Instantiate(arrow, transform.position, Quaternion.Euler(0, 0 , 0));
             arrowsFired++;
             arrowCounterSwitch();
+            
         }
-        if (Input.GetButton("Fire1") && facingRight == false )
+        if (Input.GetButtonDown("Fire1") && facingRight == false )
         {
             Instantiate(arrow, transform.position, Quaternion.Euler(0, 180 , 0));
             arrowsFired++;
             arrowCounterSwitch();
         }
     }
-
+   
    void arrowCounterSwitch()
    {
        if (arrowsFired <= 0)
@@ -80,11 +96,24 @@ public class FireArrow : MonoBehaviour
            }
        }
    }
-   /*
-   IEnumerator RunCoroutine()
+   
+   /*IEnumerator()
    {
-            
-   }
-    */
+       fireArrow = true;
+       if (facingRight)
+       {
+           Instantiate(arrow, transform.position, Quaternion.Euler(0, 0, 0));
+           arrowsFired++;
+           arrowCounterSwitch();
+       }
+       if (!(facingRight))
+       {
+           Instantiate(arrow, transform.position, Quaternion.Euler(0, 180, 0));
+           arrowsFired++;
+           arrowCounterSwitch();
+       }
+       fireArrow = false;
+   }*/
+
 
 }
