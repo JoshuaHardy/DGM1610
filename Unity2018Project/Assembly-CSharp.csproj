@@ -63,10 +63,12 @@
     <Compile Include="Assets\Scripts\AI\AINav.cs" />
     <Compile Include="Assets\Scripts\AnimationScripts\Hero\HeroAnimationScript.cs" />
     <Compile Include="Assets\Scripts\AnimationScripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\ArrayTargetIndex.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CinemachineController.cs" />
     <Compile Include="Assets\Scripts\Clothes\ClothesData.cs" />
+    <Compile Include="Assets\Scripts\ControlsPrinted.cs" />
     <Compile Include="Assets\Scripts\Coroutines\Coroutine.cs" />
     <Compile Include="Assets\Scripts\Coroutines\CoroutineClass.cs" />
     <Compile Include="Assets\Scripts\Coroutines\CountdownCoroutine.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\Scripts\EnumSwitch.cs" />
     <Compile Include="Assets\Scripts\FireArrow.cs" />
     <Compile Include="Assets\Scripts\Flip.cs" />
+    <Compile Include="Assets\Scripts\ForSpawner.cs" />
     <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameActionHandler.cs" />
     <Compile Include="Assets\Scripts\GameActionRaiser.cs" />
@@ -107,7 +110,6 @@
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\StatesBehaviour.cs" />
-    <Compile Include="Assets\Scripts\SwitchArrowLog.cs" />
     <Compile Include="Assets\Scripts\TargetControl.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImageControlerEnergy.cs" />

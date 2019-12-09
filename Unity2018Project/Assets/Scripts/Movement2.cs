@@ -24,13 +24,16 @@ public class Movement2 : MonoBehaviour
         energyRegen = .1f,
         energy = 1f;
 
-    
+    public float[] sprintRampSpeeds = {1f, 1.5f, 2f, 2.5f, 3f} ;
+
+
     public int jumpCountMax = 4;
     private bool energyRegenTrigger, isSprinting, bowAnimTrigger;
 
     public UnityEvent jumpEvent, sprintEvent;
 
     private WaitForSeconds energyRegenRate;
+    public WaitForSeconds sprintAcceleration;
 
     /*private void Input.GetButtonDown("Fire3")
     {
@@ -45,6 +48,7 @@ public class Movement2 : MonoBehaviour
     private void Awake()
     {
         energyRegenRate = new WaitForSeconds(.25f);
+        sprintAcceleration = new WaitForSeconds(1f);
     }
 
     void Start()

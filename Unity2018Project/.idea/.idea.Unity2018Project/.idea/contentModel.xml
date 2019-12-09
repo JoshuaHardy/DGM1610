@@ -24,12 +24,14 @@
             </e>
             <e p="NewBehaviourScript.cs" t="Include" />
           </e>
+          <e p="ArrayTargetIndex.cs" t="Include" />
           <e p="ButtonInput.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CinemachineController.cs" t="Include" />
           <e p="Clothes" t="Include">
             <e p="ClothesData.cs" t="Include" />
           </e>
+          <e p="ControlsPrinted.cs" t="Include" />
           <e p="Coroutines" t="Include">
             <e p="Coroutine.cs" t="Include" />
             <e p="CoroutineClass.cs" t="Include" />
@@ -52,6 +54,7 @@
           <e p="EnumSwitch.cs" t="Include" />
           <e p="FireArrow.cs" t="Include" />
           <e p="Flip.cs" t="Include" />
+          <e p="ForSpawner.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="GameActionRaiser.cs" t="Include" />
@@ -76,7 +79,6 @@
           <e p="PlayerDeath.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="StatesBehaviour.cs" t="Include" />
-          <e p="SwitchArrowLog.cs" t="Include" />
           <e p="TargetControl.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImageControlerEnergy.cs" t="Include" />

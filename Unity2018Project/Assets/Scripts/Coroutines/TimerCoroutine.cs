@@ -19,9 +19,9 @@ public class TimerCoroutine : MonoBehaviour
 
     void Start ()
     {
-        StartCoroutine(routine: OnRun());
         Time.timeScale = 1;
         timerWFS = new WaitForSeconds(1);
+        StartCoroutine(routine: OnRun());
     }
 
     void Update()
