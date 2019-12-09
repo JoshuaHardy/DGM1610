@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Targets
   - Arrows
+  - Platforms
   layers:
   - Default
   - TransparentFX

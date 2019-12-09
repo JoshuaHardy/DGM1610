@@ -1,4 +1,4 @@
-/*
+
 using System;
  using UnityEngine;
 using UnityEngine.AI;
@@ -42,12 +42,12 @@ public class AgentHandler : MonoBehaviour
             agent = GetComponent<NavMeshAgent>();
         }
 
-        private void OnTriggerEnter(Collider other)
+        void OnTriggerEnter(Collider other)
         {
             currentDestination = destinationObj;
         }
 
-        private void OnTriggerExit(Collider other)
+        void OnTriggerExit(Collider other)
         {
             currentDestination = startObj.transform;
         }
@@ -59,5 +59,3 @@ public class AgentHandler : MonoBehaviour
         }
     }
 }
-
-*/
