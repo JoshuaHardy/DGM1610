@@ -15,21 +15,6 @@ public class GameArtCollection : ScriptableObject
         }
 
     }
-/*    public void AddData(GameArtData obj)
-    {
-    if (!collectionList.Contains(obj))
-        {
-            collectionList.Add(obj);
-        }
-    }*/
-    
-    /*public void AddData(GameArtData obj)
-    {if (!obj.collected)
-        {
-         collectionList.Add(obj);
-         obj.collected = true;
-        }
-    }*/
 
     public void RemoveLastItem()
     {
